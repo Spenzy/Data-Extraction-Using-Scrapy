@@ -5,7 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+#Path non-relative
 PATH = "C:/Users/Spenz/Desktop/STUFF/chromedriver.exe"
+#PATH = ./chromedriver.exe
 driver=webdriver.Chrome(PATH)
 #Starting browser simulation
 driver.get("https://www.registre-entreprises.tn/rne-public/#/recherche-pm")
